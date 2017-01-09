@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^4.0.4",
+    "node-schedule": "^1.2.0",
+    "dateformat": "^2.0.0",
     "properties": "^1.2.1"
   }
 }

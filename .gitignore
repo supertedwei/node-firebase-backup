@@ -1,6 +1,7 @@
 
 firebase-adminsdk.json
 settings.properties
+backup_output
 
 # Created by https://www.gitignore.io/api/node
 
