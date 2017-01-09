@@ -24,7 +24,7 @@ var afterSettingsLoaded = function(settings) {
     databaseURL: settings.databaseURL
   });
 
-  // schedule.scheduleJob('0 * * * * *', backupFirebase);
+  schedule.scheduleJob('0 0 1 * * *', backupFirebase);
   backupFirebase();
 
 }
